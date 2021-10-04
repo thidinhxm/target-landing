@@ -1,0 +1,179 @@
+/* ===== GOOGLE FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    font-size: 16px;
+    color: rgb(122, 118, 118);
+}
+
+h1, h2 {
+    color: #000;
+}
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.box {
+    border-bottom: 1px solid rgb(131, 127, 127);
+}
+
+.header {
+    padding: 10px;
+}
+
+.title {
+    margin: 40px 0 20px 0;
+}
+
+.logo-target {
+    color: rgb(204, 82, 25);
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contact {
+    color: rgb(204, 82, 25);
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+    
+}
+
+.logo-img {
+    height: 30px;
+}
+
+.content {
+    margin: 10px 0 40px 0;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+
+.btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px ridge #fff;
+    margin: 0 20px;
+}
+
+.btn-purchase {
+    background-color: rgb(255, 133, 13);
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn-take {
+    background-color: rgb(121, 116, 116);
+    font-weight: 500;
+    color: #fff;
+}
+
+.text-center {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.center {
+    display: block;
+    margin: 10% auto;
+    height: 300px;
+}
+
+.laptop-icon {
+    margin-top: 20px;
+}
+.no-border {
+    border-style: none;
+}
+
+.next-button {
+    height: 20px;
+    padding-top: 9px;
+    margin-right: 5px;
+}
+
+.other-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.link {
+    color: rgb(238, 79, 5);
+    margin-left: 100px; 
+    border-bottom: 1px solid rgb(131, 127, 127);
+}
+
+.image {
+    padding-bottom: 60px;
+}
+
+.quote {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.author {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.company {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.info {
+    background-color: rgb(71, 69, 69);
+    color: rgb(212, 209, 209);
+}
+
+.title-footer {
+    color: #fff;
+}
+.logo-footer {
+    margin: 40px 0 20px 0;
+}
+
+.target-footer {
+    color: #fff;
+}
+
+.footer {
+    background-color: rgb(36, 33, 33);
+    color: #fff;
+    padding: 30px;
+}
